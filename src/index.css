@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+:root {
+  --bg: #f7faf8; /* soft off-white/green */
+  --text: #1f2937; /* slate-800 */
+  --muted: #64748b; /* slate-500 */
+  --brand: #7fbf9f; /* sage */
+  --brand-600: #5aa982; /* deeper sage */
+  --accent: #b8a7e6; /* lavender */
+  --accent-600: #9a86db; /* deeper lavender */
+  --card: #ffffff; /* cards */
+  --tint: #b8a7e61f; /* lavender 12% bg hover */
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, Arial, sans-serif;
+}
