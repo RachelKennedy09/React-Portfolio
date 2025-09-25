@@ -87,20 +87,21 @@ export default function Resume() {
           RESUME
         </h1>
         <p className="mt-2 text-gray-700">
-          Full-Stack Developer (JavaScript / React / Node / MongoDB) · Former
-          Restaurant Manager
+          Full-Stack Developer (JavaScript / React / Node / MongoDB) · Creative
+          Web Designer (HTML,5, CSS3, UX/UI, Tailwind) · Former Restaurant
+          Manager
         </p>
         <div className="mt-3 flex flex-wrap gap-3 text-sm text-gray-700">
           <a
             className="underline underline-offset-4"
-            href="mailto:rachel@example.com"
+            href="rachelkennedy@live.ca"
           >
-            rachel@example.com
+            RachelKennedy@live.ca
           </a>
           <span>•</span>
           <a
             className="underline underline-offset-4"
-            href="https://www.linkedin.com/in/your-handle"
+            href="https://www.linkedin.com/in/Rachelkennedy09"
             target="_blank"
             rel="noreferrer"
           >
@@ -109,7 +110,7 @@ export default function Resume() {
           <span>•</span>
           <a
             className="underline underline-offset-4"
-            href="https://github.com/your-handle"
+            href="https://github.com/Rachelkennedy09"
             target="_blank"
             rel="noreferrer"
           >
@@ -118,11 +119,11 @@ export default function Resume() {
           <span>•</span>
           <a
             className="underline underline-offset-4"
-            href="https://your-portfolio.example"
+            href="https://rachelkennedy09.github.io/digital-card/"
             target="_blank"
             rel="noreferrer"
           >
-            Portfolio
+            Digital Business Card
           </a>
         </div>
 
@@ -131,14 +132,16 @@ export default function Resume() {
             href="/Rachel-Kennedy-Resume.pdf"
             className="inline-flex items-center rounded-xl border border-gray-300 bg-white px-4 py-2 text-sm font-medium shadow-sm hover:shadow transition"
           >
-            Download PDF Resume
+            View PDF Resume
           </a>
-          <button
-            onClick={() => window.print()}
+          <a
+            href="/Rachel-Kennedy-Cover-Letter.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-medium shadow-sm hover:opacity-90 transition"
           >
-            Download PDF Cover Letter
-          </button>
+            View PDF Cover Letter
+          </a>
         </div>
       </header>
 
