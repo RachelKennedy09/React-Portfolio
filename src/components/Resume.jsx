@@ -129,7 +129,7 @@ export default function Resume() {
 
         <div className="mt-5 flex flex-wrap gap-3">
           <a
-            href="/Rachel-Kennedy-Resume.pdf"
+            href="/Rachel_Kennedy_Junior_Developer_Resume_2025.pdf"
             className="inline-flex items-center rounded-xl border border-gray-300 bg-white px-4 py-2 text-sm font-medium shadow-sm hover:shadow transition"
           >
             View PDF Resume
