@@ -7,8 +7,10 @@ import "./index.css";
 
 export default function App() {
   return (
-    <div id="top" className="min-h-screen bg-gradient-to-b from-[#3d8f82] to-[var(--lake-green)]">
-
+    <div
+      id="top"
+      className="min-h-screen bg-gradient-to-b from-[#3d8f82] to-[var(--lake-green)]"
+    >
       <Hero />
 
       {/* Split layout: Resume (left) | Projects (right) */}
@@ -22,20 +24,19 @@ export default function App() {
         <div>
           <Section title="Selected Projects">
             <ProjectItem
-              name="Rocky Mountain Tails (Dog Walking App)"
-              href="https://your-rmt-live-link.example" // TODO: replace with your live demo or repo
-              stack={["React", "Node", "Express", "MongoDB", "Auth"]}
+              name="Rocky Mountain Tails (Dog Walking App Project)"
+              href="https://rachelkennedy09.github.io/RockyMountainTails/"
               bullets={[
                 "Full-stack app for a dog-walking business with user-scoped CRUD and auth-guarded routes.",
                 "REST API with structured error handling; responsive UI with form validation and brand-aligned styling.",
               ]}
             />
             <ProjectItem
-              name="Guided Therapy (Website)"
-              href="https://your-guided-therapy-link.example" // TODO: replace with your live demo or repo
+              name="Guided Psychotherapy Collective (Professional Website)"
+              href=" https://rachelkennedy09.github.io/Guided/"
               stack={["HTML", "CSS", "JavaScript", "SEO", "Accessibility"]}
               bullets={[
-                "Professional responsive website for a ketamine therapy practice.",
+                "Professional responsive website for a psychotherapy therapy practice.",
                 "Secure patient registration flow, clear service pathways, and empathetic content strategy.",
               ]}
             />
