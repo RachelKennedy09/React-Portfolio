@@ -33,7 +33,7 @@ export default function App() {
             />
             <ProjectItem
               name="Guided Psychotherapy Collective (Professional Website)"
-              href=" https://rachelkennedy09.github.io/Guided/"
+              href="https://guided-psychotherapy-collective.netlify.app"
               stack={["HTML", "CSS", "JavaScript", "SEO", "Accessibility"]}
               bullets={[
                 "Professional responsive website for a psychotherapy therapy practice.",
