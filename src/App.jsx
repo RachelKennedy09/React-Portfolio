@@ -16,12 +16,12 @@ export default function App() {
       {/* Split layout: Resume (left) | Projects (right) */}
       <section className="mx-auto max-w-6xl px-4 py-16 grid gap-8 lg:grid-cols-2">
         {/* LEFT: Resume */}
-        <aside className="lg:sticky lg:top-6 self-start">
+        <aside id="resume" className="lg:sticky lg:top-6 self-start">
           <Resume />
         </aside>
 
         {/* RIGHT: Selected Projects */}
-        <div>
+        <div id="projects">
           <Section title="Selected Projects">
             <ProjectItem
               name="Rocky Mountain Tails (Dog Walking App Project)"

@@ -62,23 +62,30 @@ export default function Hero() {
         <CloudBubble className="mt-4 mx-auto max-w-xl">
           <p className="text-base text-gray-800">
             Full-Stack Developer • React • Node • MongoDB — inspired by mountain
-            life and learning new software languages while experimenting with creative design.
+            life and learning new software languages while experimenting with
+            creative design.
           </p>
         </CloudBubble>
 
         <div className="mt-6 flex flex-wrap justify-center gap-3">
           <a
+            href="https://rachelkennedy09.github.io/digital-card/"
+            className="rounded-full bg-[var(--brand)] px-5 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-[var(--brand-600)]"
+          >
+            View Digital Business Card
+          </a>
+          <a
+            href="#resume"
+            className="rounded-full border border-white/50 bg-white/80 px-5 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-white"
+            download
+          >
+            View Resume
+          </a>
+          <a
             href="#projects"
             className="rounded-full bg-[var(--brand)] px-5 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-[var(--brand-600)]"
           >
             View Projects
-          </a>
-          <a
-            href="https://rachelkennedy09.github.io/digital-card/"
-            className="rounded-full border border-white/50 bg-white/80 px-5 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-white"
-            download
-          >
-            Digital Business Card
           </a>
         </div>
       </div>
