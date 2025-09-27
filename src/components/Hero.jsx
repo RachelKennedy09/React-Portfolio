@@ -76,8 +76,7 @@ export default function Hero() {
           </a>
           <a
             href="#resume"
-            className="rounded-full border border-white/50 bg-white/80 px-5 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-white"
-            download
+            className="rounded-full bg-[var(--brand)] px-5 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-[var(--brand-600)]"
           >
             View Resume
           </a>
